@@ -1,0 +1,31 @@
+@import '../cores.scss';
+@import '../fonts/Fonte.scss';
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.menu {
+    background-image: url('../img/capa.jpg');
+    background-size: cover;
+    height: 50px;
+    display: flex;
+    padding: 25px 40px;
+    
+    h1{
+        font-family: $font-menu;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 0.5px;
+        color: #9A4C95;
+        text-shadow: 1px 1px black;
+    }
+    .logo {
+        float: left;
+        width: 60px;
+        height: 60px;
+    }
+}
+

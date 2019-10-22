@@ -1,0 +1,41 @@
+@import '../cores.scss';
+@import '../fonts/Fonte.scss';
+
+body {
+    font-family: $font-texto;
+    color: $cor-fonte-principal;
+}
+.Nav {
+    vertical-align: center;
+    img {
+        width: 10%;
+        margin: 10px;
+    }
+}
+
+.Thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        margin: 10px;
+        width: 220px;
+        height: 320px;;
+    }
+}
+
+.Titulo {
+    h1 {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+.Descricao {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    font-size: 20px;
+}
